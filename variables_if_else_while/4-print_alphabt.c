@@ -1,15 +1,13 @@
 #include <stdio.h>
-
 /**
  * main - Prints Write a program that prints the alphabet in lowercase, followe
  * d by a new line.
  *
  * Return: Always 0
  */
-
 int main(void)
 {
-	char letter; 'a';
+	char letter = 'a';
 
 	for (;letter <= 'z';) 
 	{
