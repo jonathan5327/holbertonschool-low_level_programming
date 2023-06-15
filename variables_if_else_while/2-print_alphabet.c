@@ -16,5 +16,6 @@ do
 	putchar(alphabet);
 	alphabet++;
 	} while (alphabet <= 'z');
+	putchar ('\n');
 	return (0);
 }
