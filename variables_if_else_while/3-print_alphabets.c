@@ -4,8 +4,8 @@
  * and then in uppercase, followed by a new line.
  *
  * Returns: Always 0 (Success)
- */
- int main(void)
+*/
+int main(void)
 {
 	char min = 'a', may = 'A';
 
