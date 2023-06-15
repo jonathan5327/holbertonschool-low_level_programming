@@ -5,7 +5,7 @@
  *
  * Returns: Always 0 (Success)
  */
-int main(void)
+ int main(void)
 {
 	char min = 'a', may = 'A';
 
