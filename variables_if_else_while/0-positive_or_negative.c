@@ -4,6 +4,8 @@
 
 /*
  *	This program will assign a random number to the variable n each time it 	is executed. Complete the source code in order to print whether the numb	er stored in the variable n is positive or negative.
+ *
+ *	return always 0
  */
 
 int main(void)
