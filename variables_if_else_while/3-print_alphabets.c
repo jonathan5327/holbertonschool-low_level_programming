@@ -2,7 +2,6 @@
 /**
  * main - Prints Write a program that prints the alphabet in lowercase,
  * and then in uppercase, followed by a new line.
- *
  * Returns: Always 0
  */
 int main(void)
