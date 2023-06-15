@@ -1,12 +1,10 @@
 #include<stdio.h>
-
 /**
  * main - Prints Write a program that prints the alphabet in lowercase,
  * and then in uppercase, followed by a new line.
  *
  * Returns: Always 0
  */
-
 int main(void)
 {
 	char min = 'a', may = 'A';
@@ -14,7 +12,7 @@ int main(void)
 	for (; min <= 'z' ;)
 	{
 	putchar(min);
-	min++
+	min++;
 	}
 
 	do {
@@ -23,5 +21,5 @@ int main(void)
 	} while (may <= 'Z');
 
 	putchar('\n')
-		return (0);
+	return (0);
 }
