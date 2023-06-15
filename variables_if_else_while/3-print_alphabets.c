@@ -20,6 +20,6 @@ int main(void)
 	may++;
 	} while (may <= 'Z');
 
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
