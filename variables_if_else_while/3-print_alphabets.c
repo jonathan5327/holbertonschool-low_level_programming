@@ -3,7 +3,7 @@
  * main - Prints Write a program that prints the alphabet in lowercase, and the
  * n in uppercase, followed by a new line.
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
