@@ -11,7 +11,7 @@ int main(void)
 {
 
 	char alphabet = 'a';
-do{
+do {
 	putchar(alphabet);
 	alphabet++;
 	} while (alphabet <= 'z');
