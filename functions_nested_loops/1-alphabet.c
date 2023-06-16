@@ -2,17 +2,15 @@
 /**
  *main - Prints Write a program that prints _putchar, followed by a new line.
  *Return: Always 0 (Success)
- * */
-int main(void)
+*/
+void print_alphabet(void)
 {
-	char alphabet= 'a';
+	char letter;
 
-	while(alphabet <='z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	_putchar(alphabet);
-	alphabet++;
+		_putchar(letter);
 	}
-	
+
 	_putchar('\n');
-	return (0);
 }
