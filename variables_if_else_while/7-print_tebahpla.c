@@ -12,8 +12,8 @@ int main(void)
 do {
 
 	putchar(alphabet);
-	alphabet--; } while 
-		(alphabet >= 'a');
+	alphabet--; } while
+	(alphabet >= 'a');
 		putchar ('\n');
 	return (0);
 
