@@ -7,16 +7,13 @@
 int main(void)
 {
 	int num;
+	char let;
 
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
-}
-	char let = 'a';
-{
-	do {
+
+	for (let = 'a'; let <= 'f'; let++);
 		putchar(let);
-		let++;
-	} while (let <= 'f');
 
 	putchar ('\n');
 
