@@ -1,5 +1,4 @@
-int _putchar(char c)
-void print_alphabet(void);
+#include "main.h"
 int main(void)
 {
 	char alphabet= 'a';
