@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_sign-prints - prints Write a function that prints the sign 
+ *print_sign-prints - prints Write a function that prints the sign
  *of a number.
  *@n: character to be verified
  *Return: returns 0 or 1
