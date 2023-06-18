@@ -1,7 +1,8 @@
-#include "main.c"
+#include "main.h"
 /**
- *
- *
+ *times_table - Write a function that prints the 9 times table, starting w
+ *ith 0.
+ *Return: returns nothing
  */
 void times_table(void)
 {
