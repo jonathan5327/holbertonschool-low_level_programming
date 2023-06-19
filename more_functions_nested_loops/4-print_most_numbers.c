@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *print_most_numbers - Write a function that prints the numbers, from 0 
@@ -14,7 +15,7 @@ if ((number == 50) || (number == 52))
 {
 continue;
 }
-_putchar(number);
+putchar(number);
 }
-_putchar(10);
+putchar(10);
 }
