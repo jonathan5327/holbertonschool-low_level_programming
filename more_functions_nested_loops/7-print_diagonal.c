@@ -4,7 +4,7 @@
  *@n: character
  *Return: Always 0
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int l = 0, s = 0;
 	
