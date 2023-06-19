@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *print_numbers - Write a function that prints the numbers, fr
