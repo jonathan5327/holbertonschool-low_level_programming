@@ -2,14 +2,14 @@
 #include "main.h"
 /**
  * _strlen - Write a function that returns the length of a string.
- *
  * @s: the length of a string.
+ * Return: Always counts
  */
 int _strlen(char *s)
 {
 	int count = 0;
 
-	while (*s != 0) 
+while (*s != 0) 
 	{
 		count++;
 		s++;
