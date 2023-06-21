@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * _puts - Write a function that returns the length of a string.
- * @str: characters 
- *
+ * @str: characters
  */
 void _puts(char *str)
 {
