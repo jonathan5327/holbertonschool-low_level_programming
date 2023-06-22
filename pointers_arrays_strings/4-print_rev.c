@@ -2,10 +2,10 @@
 /**
  * print_rev - Write a function that prints a string, in reverse, followed by a
  * new line.
- *
+ * @s: string
  * @i: character
  */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i = 0;
 
@@ -16,10 +16,8 @@ void print_rev(char *str)
 	while (i > 0);
 	{
 		i--:
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	
 	_putchar('\n')
-
-
 }
