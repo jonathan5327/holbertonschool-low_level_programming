@@ -7,17 +7,17 @@
  */
 int _atoi(char *s)
 {
-	char nb;
-	int num;
+        char nb;
+        int num;
 
-	num = atoi(s);
+        nb = atoi(s);
 
-	for (nb = 0; nb < num; nb++)
-	{
-		_putchar(nb);
-		s++;
-	}
-	_putchar('\n');
+        while (num >= nb)
+        {
+                _putchar(nb);
+                num++;
+        }
+        _putchar('\n');
 
 return (0);
 }
