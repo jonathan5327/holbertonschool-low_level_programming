@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _strcat - Write a function that concatenates two strings.
- * @i: character
- * @j: character
  * @dest: pointer
  * @src: pointer
+ *
+ * return: returns pointer to @dest
  */
 char *_strcat(char *dest, char *src)
 
@@ -22,4 +22,3 @@ char *_strcat(char *dest, char *src)
 		return (dest);
 
 }
-	
