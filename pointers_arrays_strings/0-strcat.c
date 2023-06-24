@@ -4,7 +4,7 @@
  * @dest: pointer
  * @src: pointer
  *
- * return: returns pointer to @dest
+ * Return: returns pointer to @dest
  */
 char *_strcat(char *dest, char *src)
 
